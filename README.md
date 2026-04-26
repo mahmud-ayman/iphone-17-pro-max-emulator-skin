@@ -18,8 +18,9 @@ Preview iOS UI directly in Android Studio. A pixel-perfect iPhone 17 Pro Max dev
 - **Perfect for**: Flutter, React Native, screenshots, demos, client presentations
 
 ## 📸 Preview
+![iPhone 17 Pro Max running in Android Studio](screenshots/BLUE.png)
+![iPhone 17 Pro Max running in Android Studio](screenshots/BLACK.png)
 
-> Add your screenshot here after installation
 
 ```
 your_app_running_in_iphone_frame.png
