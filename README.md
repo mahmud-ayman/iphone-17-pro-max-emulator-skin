@@ -35,7 +35,27 @@ iphone17promax/
 ```
 
 ## 🚀 Installation
+Install directly from Android Studio (no manual folder copy)
+Download this repo as ZIP and extract it anywhere (e.g., Desktop)
 
+You should have a folder containing: iphone bg.png, Notch.png, layout
+Open Android Studio → Tools > Device Manager
+
+Click Create Device → New Hardware Profile
+
+Fill in the specs:
+
+Device Name: iPhone 17 Pro Max
+Screen Size: 6.9"
+Resolution: 1320 × 2868
+RAM: 2048 MB (or more)
+Has Play Store: No
+Scroll down to Custom Skin Definition → click the folder icon → select the extracted folder
+
+Click Finish, then select your new AVD and hit Cold Boot Now
+
+That's it — the skin loads directly from the folder, no need to copy files into .android.
+OR DO THIS ->
 ### 1. Locate your AVD skins folder
 - **Windows**: `%USERPROFILE%\.android\devices\skins\`
 - **macOS/Linux**: `~/.android/devices/skins/`
@@ -57,7 +77,9 @@ Copy `iphone bg.png`, `Notch.png`, and `layout` into the folder.
    - **Resolution**: 1320 × 2868
    - **Density**: 460 dpi
 4. In **Advanced Settings** → **Custom Skin Definition** → select `iphone17promax`
-5. Finish and Cold Boot
+5. Finish and Cold Boot 
+OR 
+
 
 ## ⚙️ Technical Specs
 
